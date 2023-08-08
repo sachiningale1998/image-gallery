@@ -1,0 +1,61 @@
+.introContainer {
+  display: flex;
+}
+.introParent {
+  width: 100%;
+  height: 70vh;
+  /* background-image: url("../gallery/PixavibeHomepageBG1.jpg"); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide overflow to prevent content flashing */
+  animation: backgroundCarousel 15s infinite alternate; /* Change duration as needed */
+}
+
+@keyframes backgroundCarousel {
+  0%,
+  100% {
+    background-image: url("../gallery/PixavibeHomepageBG1.jpg");
+  }
+  25% {
+    background-image: url("../gallery/PixavibeHomepageBG2.jpg");
+  }
+  50% {
+    background-image: url("../gallery/PixavibeHomepageBG3.jpg");
+  }
+  75% {
+    background-image: url("../gallery/PixavibeHomepageBG4.jpg");
+  }
+}
+
+.introDesc {
+  text-align: center;
+  position: center;
+  opacity: 0; /* Start with opacity 0 for fade-in effect */
+  animation: fadeIn 1.5s forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slide up slightly */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.introH4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.introPrimaryBtn {
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  /* margin-top: 15px; */
+}

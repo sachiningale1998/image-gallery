@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+import CarouselOne from "./CarouselOne";
 
 const About = () => {
   return (
@@ -14,7 +15,11 @@ const About = () => {
           interesting and safe online environment.
         </p>
       </div>
-      <div className="aboutRight"></div>
+      <div className="aboutRight">
+        <div className="carouselContainer">
+          <CarouselOne />
+        </div>
+      </div>
     </div>
   );
 };

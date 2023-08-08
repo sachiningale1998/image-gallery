@@ -1,0 +1,12 @@
+.gridContainer{
+    background-color: rgb(54, 93, 93);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.gridChild{
+    height: auto;
+}
+.gridChild>img{
+    object-fit: contain;
+}

@@ -45,6 +45,7 @@ export default function NavbarOne() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
+                      style={{textDecoration:'none'}}
                         key={item.name}
                         href={item.href}
                         className={classNames(

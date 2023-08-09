@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import "../styles/gridThree.css";
-import downloadBtn3d from "../gallery/downloadBtn3d.png";
+import downloadBtn3d from "../gallery/down-arrow.png";
 
 const GridThree = (props) => {
   const { data } = props;

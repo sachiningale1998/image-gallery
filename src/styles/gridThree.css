@@ -7,6 +7,16 @@
 .gridChild{
     height: auto;
 }
-.gridChild>img{
+.imgContainer{
+    position: relative;
+}
+.imgContainer>img{
     object-fit: contain;
+}
+.imgContainer>button{
+    width: 50px;
+    position: absolute;
+    right:2%;
+    bottom: 2%;
+    z-index: 2;
 }

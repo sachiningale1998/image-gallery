@@ -21,9 +21,6 @@ const Home = () => {
       <Intro />
       <About />
       {imagesData && <GridThree data={imagesData} />}
-      {/* <h1 className="text-3xl font-bold underline">
-        Welcome to image gallery app
-      </h1> */}
     </>
   );
 };

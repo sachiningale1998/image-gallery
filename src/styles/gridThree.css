@@ -1,5 +1,5 @@
 .gridContainer{
-    background-color: rgb(54, 93, 93);
+    background-color: #121922;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -16,7 +16,7 @@
     transition: transform 0.5s ease;
 }
 .imgContainer>img:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 .downloadButton{
     width: 50px;

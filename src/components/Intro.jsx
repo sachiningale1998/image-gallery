@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/intro.css";
-import { Button } from "react-bootstrap";
 import ReactiveButton from "reactive-button";
-import Logo1 from "../gallery/Logo1.png"
 import Search from "./Search";
 
 const Intro = () => {

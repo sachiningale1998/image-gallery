@@ -7,6 +7,7 @@ import { createClient } from 'pexels';
 import { useState } from "react";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
+import Contact from "../components/Contact";
 
 const Home = () => {
   const [imagesData, setImagesData] = useState([]);
@@ -24,6 +25,7 @@ const Home = () => {
       {searchData && <GridThree data={searchData} /> }
       <About />
       {imagesData && <GridThree data={imagesData} />}
+      <Contact />
     </>
   );
 };

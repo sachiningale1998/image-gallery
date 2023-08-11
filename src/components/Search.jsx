@@ -1,12 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { createClient } from 'pexels';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const Search = () => {
     const [query, setQuery] = useState("");
 
-    const searchData = useSelector(state=> state.searchData);
     const dispatch = useDispatch()
     
     const client = createClient('gx6tAiWhFkzbNpiMSMRcOLR95zM2kVXP6PswvvUEqzlNaQurBqRsWfSp');

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/image-gallery/static/css/main.f9fb9587.css",
+    "main.js": "/image-gallery/static/js/main.a6480d03.js",
+    "static/js/787.2440c5ec.chunk.js": "/image-gallery/static/js/787.2440c5ec.chunk.js",
+    "static/media/PixavibeHomepageBG1.jpg": "/image-gallery/static/media/PixavibeHomepageBG1.f185e9cf6305ed68c412.jpg",
+    "static/media/PixavibeHomepageBG2.jpg": "/image-gallery/static/media/PixavibeHomepageBG2.f0c95705e84a37b12a50.jpg",
+    "static/media/PixavibeHomepageBG3.jpg": "/image-gallery/static/media/PixavibeHomepageBG3.5eb56e88ba858d366d7b.jpg",
+    "static/media/PixavibeHomepageBG4.jpg": "/image-gallery/static/media/PixavibeHomepageBG4.fdddbc8f6e6de8f785c6.jpg",
+    "static/media/PixaVibe1.jpeg": "/image-gallery/static/media/PixaVibe1.01b68667778960d6ea2f.jpeg",
+    "static/media/down-arrow.png": "/image-gallery/static/media/down-arrow.556929d8f7974469d009.png",
+    "index.html": "/image-gallery/index.html",
+    "main.f9fb9587.css.map": "/image-gallery/static/css/main.f9fb9587.css.map",
+    "main.a6480d03.js.map": "/image-gallery/static/js/main.a6480d03.js.map",
+    "787.2440c5ec.chunk.js.map": "/image-gallery/static/js/787.2440c5ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9fb9587.css",
+    "static/js/main.a6480d03.js"
+  ]
+}

@@ -1,23 +1,30 @@
 import React from "react";
 import { useState } from "react";
 import { createClient } from 'pexels';
-import useSearchData from "../customHooks/useSearchData";
+import { useDispatch, useSelector } from "react-redux";
 
 const Search = () => {
     const [query, setQuery] = useState("");
-    const [searchData, setSearchData] = useSearchData(query)
+
+    const searchData = useSelector(state=> state.searchData);
+    const dispatch = useDispatch()
     
     const client = createClient('gx6tAiWhFkzbNpiMSMRcOLR95zM2kVXP6PswvvUEqzlNaQurBqRsWfSp');
     const handleSearch =async()=>{
         try{
-            let data = await client.photos.search({ query, per_page: 10 });
+          let data = await client.photos.search({ query, per_page: 18 });
             data = data.photos
-            console.log('data: ', data);
-        }catch(e){
+            if(data){
+              dispatch({
+                type: "SET_SEARCH_DATA",
+                payload: data
+              })
+            }
+          }catch(e){
             console.log("error", e)
+          }
         }
-    }
-    console.log('searchData: ', searchData);
+
   return (
     <div className="input-group mb-3">
       <input

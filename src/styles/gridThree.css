@@ -9,14 +9,34 @@
 }
 .imgContainer{
     position: relative;
+    overflow: hidden;
 }
 .imgContainer>img{
     object-fit: contain;
+    transition: transform 0.5s ease;
 }
-.imgContainer>button{
+.imgContainer>img:hover{
+    transform: scale(1.2);
+}
+.downloadButton{
     width: 50px;
     position: absolute;
     right:2%;
     bottom: 2%;
     z-index: 2;
+    z-index : 1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    animation: moveUpDown 2s infinite alternate ease;
+}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    100% {
+      transform: translateY(-10px); /* Ending position */
+    }
+  }
+.imgContainer:hover .downloadButton{
+    opacity : 1
 }

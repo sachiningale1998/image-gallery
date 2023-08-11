@@ -36,7 +36,7 @@ const GridThree = (props) => {
           <div key={index} className="gridChild">
             <div className="imgContainer">
               <img src={el.src.portrait} alt={el.alt} />
-              <button onClick={() => handleDownload(el.src.original, el.alt)}>
+              <button className="downloadButton" onClick={() => handleDownload(el.src.original, el.alt)}>
                 <img
                   src={downloadBtn3d}
                   alt="DownloadButton"

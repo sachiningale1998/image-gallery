@@ -19,6 +19,7 @@ const Search = () => {
                 payload: data
               })
             }
+            document.querySelector(".form-control").value = ""
           }catch(e){
             console.log("error", e)
           }

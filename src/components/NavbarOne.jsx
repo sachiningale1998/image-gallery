@@ -4,9 +4,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import PixaVibeLogo1 from "../gallery/PixaVibe1.jpeg";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "Services", href: "#", current: false },
+  { name: "Home", href: "#nav", current: true },
+  { name: "About", href: "#about", current: false },
   { name: "Contact", href: "#Contact", current: false },
 ];
 
@@ -16,7 +15,7 @@ function classNames(...classes) {
 
 export default function NavbarOne() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure id="nav" as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -45,7 +44,7 @@ export default function NavbarOne() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
-                      style={{textDecoration:'none'}}
+                        style={{ textDecoration: "none" }}
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -98,6 +97,7 @@ export default function NavbarOne() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            style={{ textDecoration: "none" }}
                             href="#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
@@ -111,6 +111,7 @@ export default function NavbarOne() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            style={{ textDecoration: "none" }}
                             href="#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
@@ -124,6 +125,7 @@ export default function NavbarOne() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            style={{ textDecoration: "none" }}
                             href="#"
                             className={classNames(
                               active ? "bg-gray-100" : "",

@@ -5,7 +5,7 @@ import Search from "./Search";
 
 const Intro = () => {
   return (
-    <div className="introContainer">
+    <div id="intro" className="introContainer">
       <div className="introParent">
         <div className="introDesc">
           {/* <img src={Logo1} alt="logo1" style={{mixBlendMode: 'screen'}} /> */}

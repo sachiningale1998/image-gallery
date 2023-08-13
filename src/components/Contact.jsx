@@ -6,19 +6,19 @@ const Contact = () => {
   return (
     <div id="Contact" className="contact-container">
       <div className="contact-grid-parent">
-        <div>
+        <div className="contact-item1">
           <h1>Contact</h1>
           <p>PixaVibe</p>
           <span>Ahmednagar, Maharashtra</span>
         </div>
-        <div>
+        <div className="contact-item2">
           <span>Wanna Contribute to this project?</span>
           <a href="tel:+91-8788665232">Call Me : +91-8788665232</a>
           <a href="mailto:sachinri8987@gamil.com?subject=Inquiry&body=Hello%20Sachin">
             Email : sachinri8987@gmail.com
           </a>
         </div>
-        <div>
+        <div className="contact-item3">
           <span>Subscribe to my NewsLetter</span>
           <InputGroup className="mb-3">
             <Form.Control

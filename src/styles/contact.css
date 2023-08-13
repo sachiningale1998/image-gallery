@@ -1,10 +1,10 @@
 .contact-container{
     width: 100%;
+    padding: 40px 20px;
+    background-color: #1f2937;
     display: flex;
     justify-content:center;
     align-items:center;
-    padding: 40px 20px;
-    background-color: #1f2937;
 }
 
 .contact-grid-parent{
@@ -33,16 +33,27 @@
 
 @media all and (max-width: 768px) {
     .contact-grid-parent{
-        width: 85%;
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'left left right right '
+        'footer footer footer footer';
+        box-sizing: content-box;
     }
+    .contact-item1{grid-area: left;}
+    .contact-item2{grid-area: right;}
+    .contact-item3{grid-area: footer;}
 }
 
 @media all and (max-width: 480px) {
+    .contact-item1{grid-area: left;}
+    .contact-item2{grid-area: right;}
+    .contact-item3{grid-area: footer;}
     .contact-grid-parent{
         width: 90%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+                             'left right'
+                               'footer footer';
     }
 }

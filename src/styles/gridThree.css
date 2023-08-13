@@ -40,3 +40,27 @@
 .imgContainer:hover .downloadButton{
     opacity : 1
 }
+
+@media all and (max-width: 768px) {
+    .gridContainer{
+        background-color: #121922;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .downloadButton{
+        width: 30px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .gridContainer{
+        background-color: #121922;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .downloadButton{
+        width: 30px;
+    }
+}

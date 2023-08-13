@@ -30,3 +30,19 @@
     color: rgb(223, 211, 211);
     margin: 10px;
 }
+
+@media all and (max-width: 768px) {
+    .contact-grid-parent{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 480px) {
+    .contact-grid-parent{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

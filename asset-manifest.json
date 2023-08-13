@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/image-gallery/static/css/main.289b0215.css",
-    "main.js": "/image-gallery/static/js/main.9e33d14b.js",
+    "main.css": "/image-gallery/static/css/main.874b994b.css",
+    "main.js": "/image-gallery/static/js/main.5deb4b9d.js",
     "static/js/787.2440c5ec.chunk.js": "/image-gallery/static/js/787.2440c5ec.chunk.js",
     "static/media/PixavibeHomepageBG1.jpg": "/image-gallery/static/media/PixavibeHomepageBG1.f185e9cf6305ed68c412.jpg",
     "static/media/PixavibeHomepageBG2.jpg": "/image-gallery/static/media/PixavibeHomepageBG2.f0c95705e84a37b12a50.jpg",
@@ -10,12 +10,12 @@
     "static/media/PixaVibe1.jpeg": "/image-gallery/static/media/PixaVibe1.01b68667778960d6ea2f.jpeg",
     "static/media/down-arrow.png": "/image-gallery/static/media/down-arrow.556929d8f7974469d009.png",
     "index.html": "/image-gallery/index.html",
-    "main.289b0215.css.map": "/image-gallery/static/css/main.289b0215.css.map",
-    "main.9e33d14b.js.map": "/image-gallery/static/js/main.9e33d14b.js.map",
+    "main.874b994b.css.map": "/image-gallery/static/css/main.874b994b.css.map",
+    "main.5deb4b9d.js.map": "/image-gallery/static/js/main.5deb4b9d.js.map",
     "787.2440c5ec.chunk.js.map": "/image-gallery/static/js/787.2440c5ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.289b0215.css",
-    "static/js/main.9e33d14b.js"
+    "static/css/main.874b994b.css",
+    "static/js/main.5deb4b9d.js"
   ]
 }

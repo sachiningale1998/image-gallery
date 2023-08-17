@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/image-gallery/static/css/main.874b994b.css",
-    "main.js": "/image-gallery/static/js/main.5deb4b9d.js",
+    "main.js": "/image-gallery/static/js/main.10284e39.js",
     "static/js/787.2440c5ec.chunk.js": "/image-gallery/static/js/787.2440c5ec.chunk.js",
+    "static/media/aboutCarousel1.jpg": "/image-gallery/static/media/aboutCarousel1.8d550409581b64a67b2f.jpg",
+    "static/media/aboutCarousel3.jpg": "/image-gallery/static/media/aboutCarousel3.31e081c95239ab1f2d6c.jpg",
     "static/media/PixavibeHomepageBG1.jpg": "/image-gallery/static/media/PixavibeHomepageBG1.f185e9cf6305ed68c412.jpg",
     "static/media/PixavibeHomepageBG2.jpg": "/image-gallery/static/media/PixavibeHomepageBG2.f0c95705e84a37b12a50.jpg",
+    "static/media/aboutCarousel2.jpg": "/image-gallery/static/media/aboutCarousel2.da442886c776c102d252.jpg",
     "static/media/PixavibeHomepageBG3.jpg": "/image-gallery/static/media/PixavibeHomepageBG3.5eb56e88ba858d366d7b.jpg",
     "static/media/PixavibeHomepageBG4.jpg": "/image-gallery/static/media/PixavibeHomepageBG4.fdddbc8f6e6de8f785c6.jpg",
     "static/media/PixaVibe1.jpeg": "/image-gallery/static/media/PixaVibe1.01b68667778960d6ea2f.jpeg",
     "static/media/down-arrow.png": "/image-gallery/static/media/down-arrow.556929d8f7974469d009.png",
     "index.html": "/image-gallery/index.html",
     "main.874b994b.css.map": "/image-gallery/static/css/main.874b994b.css.map",
-    "main.5deb4b9d.js.map": "/image-gallery/static/js/main.5deb4b9d.js.map",
+    "main.10284e39.js.map": "/image-gallery/static/js/main.10284e39.js.map",
     "787.2440c5ec.chunk.js.map": "/image-gallery/static/js/787.2440c5ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.874b994b.css",
-    "static/js/main.5deb4b9d.js"
+    "static/js/main.10284e39.js"
   ]
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import PixavibeHomepageBG1 from "../gallery/PixavibeHomepageBG1.jpg";
-import PixavibeHomepageBG2 from "../gallery/PixavibeHomepageBG2.jpg";
-import PixavibeHomepageBG3 from "../gallery/PixavibeHomepageBG3.jpg";
+import aboutCarousel1 from "../gallery/aboutCarousel1.jpg";
+import aboutCarousel2 from "../gallery/aboutCarousel2.jpg";
+import aboutCarousel3 from "../gallery/aboutCarousel3.jpg";
 
 const CarouselOne = () => {
   return (
@@ -10,7 +10,7 @@ const CarouselOne = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={PixavibeHomepageBG1}
+          src={aboutCarousel1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ const CarouselOne = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={PixavibeHomepageBG2}
+          src={aboutCarousel2}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -32,7 +32,7 @@ const CarouselOne = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={PixavibeHomepageBG3}
+          src={aboutCarousel3}
           alt="Third slide"
         />
         <Carousel.Caption>
